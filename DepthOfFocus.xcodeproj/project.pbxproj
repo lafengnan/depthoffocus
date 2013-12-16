@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1DF9EA15E2589100717DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1DF9E915E2589100717DED /* UIKit.framework */; };
+		8F1DF9EC15E2589100717DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1DF9EB15E2589100717DED /* Foundation.framework */; };
+		8F1DF9EE15E2589100717DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1DF9ED15E2589100717DED /* CoreGraphics.framework */; };
+		8F1DF9F415E2589100717DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DF9F215E2589100717DED /* InfoPlist.strings */; };
+		8F1DF9F615E2589100717DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DF9F515E2589100717DED /* main.m */; };
+		8F1DF9FA15E2589100717DED /* DepthOfFocusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DF9F915E2589100717DED /* DepthOfFocusAppDelegate.m */; };
+		8F1DF9FC15E2589100717DED /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DF9FB15E2589100717DED /* MainWindow.xib */; };
+		8F1DFA0415E258B800717DED /* DepthOfFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DFA0315E258B800717DED /* DepthOfFocusViewController.m */; };
+		8F1DFA0715E258DD00717DED /* PhotoAdviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DFA0615E258DD00717DED /* PhotoAdviceViewController.m */; };
+		8F1DFA0A15E25A0300717DED /* CameraMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DFA0915E25A0300717DED /* CameraMarketViewController.m */; };
+		8F1DFA0D15E2612900717DED /* Depth.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DFA0B15E2612900717DED /* Depth.png */; };
+		8F1DFA0E15E2612900717DED /* Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DFA0C15E2612900717DED /* Market.png */; };
+		8F1DFA1015E2620900717DED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DFA0F15E2620900717DED /* Icon.png */; };
+		8F1DFA1415E263E100717DED /* DepthOfFocusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DFA1315E263E100717DED /* DepthOfFocusView.xib */; };
+		8FA7166B15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA7166915EBBDF000F79FB1 /* PhotoAdviceDetailViewController.m */; };
+		8FA7166C15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FA7166A15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.xib */; };
+		8FA81C4615E28DFD004A9391 /* DepthOfFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA81C4515E28DFD004A9391 /* DepthOfFocus.m */; };
+		8FADCAFF15EF81ED00E50581 /* ForumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FADCAFE15EF81ED00E50581 /* ForumListViewController.m */; };
+		8FAE873015E4F52E00D3B096 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE872F15E4F52E00D3B096 /* Camera.m */; };
+		8FB3EF0F15F4C627009A25BB /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3EF0E15F4C627009A25BB /* RSSChannel.m */; };
+		8FB3EF1315F4CA78009A25BB /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3EF1215F4CA78009A25BB /* RSSItem.m */; };
+		8FB3EF1615F4CE0A009A25BB /* DetailsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3EF1515F4CE0A009A25BB /* DetailsWebViewController.m */; };
+		8FB4D8EB15EB960C003EB911 /* PhotoAdvice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4D8EA15EB960C003EB911 /* PhotoAdvice.m */; };
+		8FBE1227167302FC00508659 /* camera.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE1226167302FC00508659 /* camera.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F1DF9E515E2589100717DED /* DepthOfFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthOfFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1DF9E915E2589100717DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F1DF9EB15E2589100717DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F1DF9ED15E2589100717DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F1DF9F115E2589100717DED /* DepthOfFocus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DepthOfFocus-Info.plist"; sourceTree = "<group>"; };
+		8F1DF9F315E2589100717DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F1DF9F515E2589100717DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F1DF9F715E2589100717DED /* DepthOfFocus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DepthOfFocus-Prefix.pch"; sourceTree = "<group>"; };
+		8F1DF9F815E2589100717DED /* DepthOfFocusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthOfFocusAppDelegate.h; sourceTree = "<group>"; };
+		8F1DF9F915E2589100717DED /* DepthOfFocusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthOfFocusAppDelegate.m; sourceTree = "<group>"; };
+		8F1DF9FB15E2589100717DED /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8F1DFA0215E258B800717DED /* DepthOfFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthOfFocusViewController.h; sourceTree = "<group>"; };
+		8F1DFA0315E258B800717DED /* DepthOfFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepthOfFocusViewController.m; sourceTree = "<group>"; };
+		8F1DFA0515E258DD00717DED /* PhotoAdviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAdviceViewController.h; sourceTree = "<group>"; };
+		8F1DFA0615E258DD00717DED /* PhotoAdviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAdviceViewController.m; sourceTree = "<group>"; };
+		8F1DFA0815E25A0300717DED /* CameraMarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraMarketViewController.h; sourceTree = "<group>"; };
+		8F1DFA0915E25A0300717DED /* CameraMarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraMarketViewController.m; sourceTree = "<group>"; };
+		8F1DFA0B15E2612900717DED /* Depth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Depth.png; sourceTree = "<group>"; };
+		8F1DFA0C15E2612900717DED /* Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Market.png; sourceTree = "<group>"; };
+		8F1DFA0F15E2620900717DED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8F1DFA1315E263E100717DED /* DepthOfFocusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepthOfFocusView.xib; sourceTree = SOURCE_ROOT; };
+		8FA7166815EBBDF000F79FB1 /* PhotoAdviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAdviceDetailViewController.h; sourceTree = "<group>"; };
+		8FA7166915EBBDF000F79FB1 /* PhotoAdviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAdviceDetailViewController.m; sourceTree = "<group>"; };
+		8FA7166A15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoAdviceDetailViewController.xib; sourceTree = "<group>"; };
+		8FA81C4415E28DFD004A9391 /* DepthOfFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthOfFocus.h; sourceTree = "<group>"; };
+		8FA81C4515E28DFD004A9391 /* DepthOfFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepthOfFocus.m; sourceTree = "<group>"; };
+		8FADCAFD15EF81ED00E50581 /* ForumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumListViewController.h; sourceTree = "<group>"; };
+		8FADCAFE15EF81ED00E50581 /* ForumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumListViewController.m; sourceTree = "<group>"; };
+		8FAE872E15E4F52E00D3B096 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = ../Camera.h; sourceTree = "<group>"; };
+		8FAE872F15E4F52E00D3B096 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Camera.m; path = ../Camera.m; sourceTree = "<group>"; };
+		8FB3EF0D15F4C627009A25BB /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
+		8FB3EF0E15F4C627009A25BB /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
+		8FB3EF1115F4CA78009A25BB /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		8FB3EF1215F4CA78009A25BB /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
+		8FB3EF1415F4CE0A009A25BB /* DetailsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsWebViewController.h; sourceTree = "<group>"; };
+		8FB3EF1515F4CE0A009A25BB /* DetailsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsWebViewController.m; sourceTree = "<group>"; };
+		8FB4D8E915EB960C003EB911 /* PhotoAdvice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAdvice.h; sourceTree = "<group>"; };
+		8FB4D8EA15EB960C003EB911 /* PhotoAdvice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAdvice.m; sourceTree = "<group>"; };
+		8FBE1226167302FC00508659 /* camera.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = camera.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1DF9E215E2589100717DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1DF9EA15E2589100717DED /* UIKit.framework in Frameworks */,
+				8F1DF9EC15E2589100717DED /* Foundation.framework in Frameworks */,
+				8F1DF9EE15E2589100717DED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1DF9DA15E2589100717DED = {
+			isa = PBXGroup;
+			children = (
+				8F1DF9EF15E2589100717DED /* DepthOfFocus */,
+				8F1DF9E815E2589100717DED /* Frameworks */,
+				8F1DF9E615E2589100717DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1DF9E615E2589100717DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1DF9E515E2589100717DED /* DepthOfFocus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1DF9E815E2589100717DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F1DF9E915E2589100717DED /* UIKit.framework */,
+				8F1DF9EB15E2589100717DED /* Foundation.framework */,
+				8F1DF9ED15E2589100717DED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F1DF9EF15E2589100717DED /* DepthOfFocus */ = {
+			isa = PBXGroup;
+			children = (
+				8FA81C4415E28DFD004A9391 /* DepthOfFocus.h */,
+				8FA81C4515E28DFD004A9391 /* DepthOfFocus.m */,
+				8FAE872E15E4F52E00D3B096 /* Camera.h */,
+				8FAE872F15E4F52E00D3B096 /* Camera.m */,
+				8F1DF9F815E2589100717DED /* DepthOfFocusAppDelegate.h */,
+				8F1DFA0515E258DD00717DED /* PhotoAdviceViewController.h */,
+				8F1DFA0615E258DD00717DED /* PhotoAdviceViewController.m */,
+				8FA7166815EBBDF000F79FB1 /* PhotoAdviceDetailViewController.h */,
+				8FA7166915EBBDF000F79FB1 /* PhotoAdviceDetailViewController.m */,
+				8FA7166A15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.xib */,
+				8FB4D8E915EB960C003EB911 /* PhotoAdvice.h */,
+				8FB4D8EA15EB960C003EB911 /* PhotoAdvice.m */,
+				8F1DF9F915E2589100717DED /* DepthOfFocusAppDelegate.m */,
+				8FADCAFD15EF81ED00E50581 /* ForumListViewController.h */,
+				8FADCAFE15EF81ED00E50581 /* ForumListViewController.m */,
+				8FB3EF1415F4CE0A009A25BB /* DetailsWebViewController.h */,
+				8FB3EF1515F4CE0A009A25BB /* DetailsWebViewController.m */,
+				8FB3EF1115F4CA78009A25BB /* RSSItem.h */,
+				8FB3EF1215F4CA78009A25BB /* RSSItem.m */,
+				8FB3EF0D15F4C627009A25BB /* RSSChannel.h */,
+				8FB3EF0E15F4C627009A25BB /* RSSChannel.m */,
+				8F1DFA0215E258B800717DED /* DepthOfFocusViewController.h */,
+				8F1DFA0815E25A0300717DED /* CameraMarketViewController.h */,
+				8F1DFA0915E25A0300717DED /* CameraMarketViewController.m */,
+				8F1DFA0315E258B800717DED /* DepthOfFocusViewController.m */,
+				8F1DF9FB15E2589100717DED /* MainWindow.xib */,
+				8F1DFA1315E263E100717DED /* DepthOfFocusView.xib */,
+				8FBE12291673031000508659 /* Cameras */,
+				8F1DF9F015E2589100717DED /* Supporting Files */,
+			);
+			path = DepthOfFocus;
+			sourceTree = "<group>";
+		};
+		8F1DF9F015E2589100717DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1DFA0F15E2620900717DED /* Icon.png */,
+				8F1DFA0B15E2612900717DED /* Depth.png */,
+				8F1DFA0C15E2612900717DED /* Market.png */,
+				8F1DF9F115E2589100717DED /* DepthOfFocus-Info.plist */,
+				8F1DF9F215E2589100717DED /* InfoPlist.strings */,
+				8F1DF9F515E2589100717DED /* main.m */,
+				8F1DF9F715E2589100717DED /* DepthOfFocus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FBE12291673031000508659 /* Cameras */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE1226167302FC00508659 /* camera.plist */,
+			);
+			name = Cameras;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1DF9E415E2589100717DED /* DepthOfFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1DF9FF15E2589100717DED /* Build configuration list for PBXNativeTarget "DepthOfFocus" */;
+			buildPhases = (
+				8F1DF9E115E2589100717DED /* Sources */,
+				8F1DF9E215E2589100717DED /* Frameworks */,
+				8F1DF9E315E2589100717DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepthOfFocus;
+			productName = DepthOfFocus;
+			productReference = 8F1DF9E515E2589100717DED /* DepthOfFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1DF9DC15E2589100717DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = lafengnan;
+			};
+			buildConfigurationList = 8F1DF9DF15E2589100717DED /* Build configuration list for PBXProject "DepthOfFocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F1DF9DA15E2589100717DED;
+			productRefGroup = 8F1DF9E615E2589100717DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1DF9E415E2589100717DED /* DepthOfFocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1DF9E315E2589100717DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1DF9F415E2589100717DED /* InfoPlist.strings in Resources */,
+				8F1DF9FC15E2589100717DED /* MainWindow.xib in Resources */,
+				8F1DFA0D15E2612900717DED /* Depth.png in Resources */,
+				8F1DFA0E15E2612900717DED /* Market.png in Resources */,
+				8F1DFA1015E2620900717DED /* Icon.png in Resources */,
+				8F1DFA1415E263E100717DED /* DepthOfFocusView.xib in Resources */,
+				8FA7166C15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.xib in Resources */,
+				8FBE1227167302FC00508659 /* camera.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1DF9E115E2589100717DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1DF9F615E2589100717DED /* main.m in Sources */,
+				8F1DF9FA15E2589100717DED /* DepthOfFocusAppDelegate.m in Sources */,
+				8F1DFA0415E258B800717DED /* DepthOfFocusViewController.m in Sources */,
+				8F1DFA0715E258DD00717DED /* PhotoAdviceViewController.m in Sources */,
+				8F1DFA0A15E25A0300717DED /* CameraMarketViewController.m in Sources */,
+				8FA81C4615E28DFD004A9391 /* DepthOfFocus.m in Sources */,
+				8FAE873015E4F52E00D3B096 /* Camera.m in Sources */,
+				8FB4D8EB15EB960C003EB911 /* PhotoAdvice.m in Sources */,
+				8FA7166B15EBBDF000F79FB1 /* PhotoAdviceDetailViewController.m in Sources */,
+				8FADCAFF15EF81ED00E50581 /* ForumListViewController.m in Sources */,
+				8FB3EF0F15F4C627009A25BB /* RSSChannel.m in Sources */,
+				8FB3EF1315F4CA78009A25BB /* RSSItem.m in Sources */,
+				8FB3EF1615F4CE0A009A25BB /* DetailsWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F1DF9F215E2589100717DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1DF9F315E2589100717DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F1DF9FD15E2589100717DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F1DF9FE15E2589100717DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1DFA0015E2589100717DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DepthOfFocus/DepthOfFocus-Prefix.pch";
+				INFOPLIST_FILE = "DepthOfFocus/DepthOfFocus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F1DFA0115E2589100717DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DepthOfFocus/DepthOfFocus-Prefix.pch";
+				INFOPLIST_FILE = "DepthOfFocus/DepthOfFocus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1DF9DF15E2589100717DED /* Build configuration list for PBXProject "DepthOfFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1DF9FD15E2589100717DED /* Debug */,
+				8F1DF9FE15E2589100717DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1DF9FF15E2589100717DED /* Build configuration list for PBXNativeTarget "DepthOfFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1DFA0015E2589100717DED /* Debug */,
+				8F1DFA0115E2589100717DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1DF9DC15E2589100717DED /* Project object */;
+}
